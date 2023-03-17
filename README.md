@@ -3,7 +3,7 @@
 
 **Пример запуска:**
 
-js-substring_search-Boyer-Moore>node src/bm.js -n 2 -t resources/Harry.txt resources/HarrySubStr.txt
+js-substring_search-Boyer-Moore>node src/bm.js -n 18 -t resources/Harry.txt resources/HarrySubStr.txt
 
 **-n number**, если установлен, то выводится number ближайших вхождений подстроки\
 **-t**, если установлен, то выводится время работы алгоритма\
@@ -12,14 +12,23 @@ js-substring_search-Boyer-Moore>node src/bm.js -n 2 -t resources/Harry.txt resou
 
 Для примера выше будет выведен результат:\
 WorkTime: 15ms\
-  Г а р и\
-0)1 0 0 0\
-1)1 2 0 0\
-2)1 0 3 0\
-3)1 0 4 0\
-4)1 0 0 5\
-5)1 0 0 0\
-------First n entries-----\
+------Entries-----\
 |            6652           |\
 |            7338           |\
+|            7438           |\
+|            12939           |\
+|            21924           |\
+|            22106           |\
+|            22513           |\
+|            23366           |\
+|            23883           |\
+|            24276           |\
+|            24387           |\
+|            25249           |\
+|            27604           |\
+|            28161           |\
+|            28447           |\
+|            29810           |\
+|            30091           |\
+|            30752           |\
 --------------------------\
